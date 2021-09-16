@@ -1,0 +1,23 @@
+.header-title{
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.single-photo{
+    border: 1px solid rgb(7, 123, 128);
+    background-color: rgba(189, 255, 246, 0.815);
+    padding: 16px;
+    text-align: center;
+    overflow: hidden;
+}
+.thumbnail{
+    width: 250px;
+    height: 250px;
+    transition: 0.3s ease-in-out;
+}
+.thumbnail:hover{
+    transform: scale(1.2);
+}
